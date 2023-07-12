@@ -148,7 +148,7 @@ plot(neffects, .plot_type = 'simpleeffects')
 
 
 
-#preparando datos de constructos para nca, con el out2 que es el model final
+#preparando datos de constructos para nca, con el out2 que es el modelo final
 construct<-getConstructScores(out2)
 
 construct$Construct_scores
@@ -156,6 +156,5 @@ construct$Construct_scores
 #write.csv(x = construct$Construct_scores, file = "variables_latentes.csv")
 
 
-#predicción
-predict(.handle_inadmissibles = 'ignore', out)
+
 
