@@ -153,7 +153,7 @@ construct<-getConstructScores(out2)
 
 construct$Construct_scores
 #exportamos los datos para nca y redes
-#write.csv(x = construct$Construct_scores, file = "variables_latentes.csv")
+write.csv(x = construct$Construct_scores, file = "variables_latentes.csv")
 
 
 
