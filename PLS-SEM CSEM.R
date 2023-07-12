@@ -92,7 +92,7 @@ assess$VIF
 assess$RMSEA
 #srmr
 assess$SRMR
-assess$Effects$Direct_effect
+
 #Efecto indirecto
 assess$Effects$Indirect_effect
 #sacar datos efecto indirecto
